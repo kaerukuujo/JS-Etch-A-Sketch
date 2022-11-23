@@ -5,6 +5,19 @@ html {
     box-sizing: border-box;
 }
 
+#pageContainer {
+    display:flex;
+    flex-direction: column;
+}
+
+#topBut{
+    justify-content: center;
+    align-self: center;    
+    margin: 10px;
+    width: 300px;
+    height: 75px;
+}
+
 #container {
     display:flex;
     flex-direction: column;
@@ -23,11 +36,11 @@ html {
 .rowDiv {
     width: 100vw;
     aspect-ratio: 1 / 1;
-    border-style: solid;
-    border-color: blueviolet;
+    /* border-style: solid; */
+    /* border-color: blueviolet; */
 
 }
 
 .hovered {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
